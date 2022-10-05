@@ -2,7 +2,7 @@ import Navbar from "./NavBar";
 import Footer from "./Footer";
 function Projects(){
     return(
-        <di>
+        <div >
             <Navbar/>
             <h1>Some of my projects include: </h1>
             <ul>
@@ -12,7 +12,7 @@ function Projects(){
                 <li>School Management System</li>
             </ul>
             <Footer/>
-        </di>
+        </div>
     )
 }
 
