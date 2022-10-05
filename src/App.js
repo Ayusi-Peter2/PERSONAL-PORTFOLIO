@@ -1,9 +1,9 @@
 import React from "react"
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import NavBar from "./components/NavBar"
-import Home from "./components/Home"
-import Projects from "./components/Projects";
-import Experience from "./components/Projects";
+import Home from "./pages/Home"
+import Projects from "./pages/Projects";
+import Experience from "./pages/Projects";
 import Footer from "./components/Footer";
 function App() {
   return (
