@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 function Projects(){
     return(
         <div >
-            <Navbar/>
+          
             <h1>Some of my projects include: </h1>
             <ul>
                 <li>Weather Application</li>
