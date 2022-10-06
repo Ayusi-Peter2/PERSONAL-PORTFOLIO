@@ -1,14 +1,16 @@
 import ProjectItem from "../components/ProjectItem";
-import proj1 from "../assets/proj1.jpg";
-import proj2 from "../assets/proj2.jpg";
-function Projects(){
-    return(
+import { ProjectList } from "../helpers/ProjectList"
+import "../styles/Projects.css"
+function Projects() {
+    return (
         <div className="projects">
-          
+
             <h1>My Personal Projects </h1>
             <div className="projectList">
-<ProjectItem name="Social Media Website" image={proj1}/>
-<ProjectItem name="Dating App" image={proj2}/>
+                {ProjectList.map((project) => {
+                    return <ProjectItem name={project.name}
+                    image={project.image}/>
+                })}
 
             </div>
             {/* <ul>
@@ -17,7 +19,7 @@ function Projects(){
                 <li>Dating App</li>
                 <li>School Management System</li>
             </ul> */}
-           
+
         </div>
     )
 }
