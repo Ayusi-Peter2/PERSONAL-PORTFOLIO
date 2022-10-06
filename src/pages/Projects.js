@@ -11,7 +11,7 @@ function Projects(){
                 <li>Dating App</li>
                 <li>School Management System</li>
             </ul>
-            <Footer/>
+           
         </div>
     )
 }

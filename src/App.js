@@ -19,10 +19,6 @@ function App() {
         <Footer/>
       </BrowserRouter>
 
-      {/* <NavBar/>
-     <Home/>
-     <Footer/> */}
-
     </div>
   );
 }
