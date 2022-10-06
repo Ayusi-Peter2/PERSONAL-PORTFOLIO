@@ -1,18 +1,45 @@
-function Home(){
-    return(
-        <div>
-            <h1>Hello,My name is James</h1>
-            <p>A Software Developer With a passion
-                for learning and creating
-            </p>
-
+import React from "react"
+import TwitterIcon from '@mui/icons-material/Twitter';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import EmailIcon from '@mui/icons-material/Email';
+function Home() {
+    return (
+        <div className="home">
+            <div className="about"></div>
+            <h1>Hello,My Name is James</h1>
+            <div className="prompt">
+                <p>
+                    A Software Developer With a passion
+                    for learning and creating
+                </p>
+                <LinkedInIcon />
+                <EmailIcon />
+                <GitHubIcon />
+            </div>
+            <div className="skills"></div>
             <h1>Skills</h1>
-            <h2>Frontend</h2>
-            <p>ReactJs, Tailwind Css, HTML, Bootstrap</p>
-            <h2>Backend</h2>
-            <p>Ruby, Rails, Python, MongoDb, AWS</p>
-            <h2>Langauages</h2>
-            <p>Ruby, Rails, Python, MongoDb, AWS</p>
+            <ol className="list">
+                <li className="item">
+                    <h2>Front-End</h2>
+                    <span>
+                    ReactJs, Tailwind Css, HTML, Bootstrap, MaterialUI,
+                    StyledComponents
+                    </span>
+                </li>
+                <li className="item">
+                    <h2>Back-End</h2>
+                    <span>
+                    Ruby, Rails, Python, MongoDb, AWS, MySQL, NodeJs/Express
+                    </span>
+                </li>
+                <li className="item">
+                    <h2>Languages</h2>
+                    <span>Ruby, JavaScript, Python</span>
+                </li>
+            </ol>
+
+            
         </div>
     )
 }
