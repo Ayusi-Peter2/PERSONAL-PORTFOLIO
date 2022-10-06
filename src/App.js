@@ -1,9 +1,10 @@
+import "./App.css"
 import React from "react"
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import NavBar from "./components/NavBar"
 import Home from "./pages/Home"
 import Projects from "./pages/Projects";
-import Experience from "./pages/Projects";
+import Experience from "./pages/Experience";
 import Footer from "./components/Footer";
 function App() {
   return (
