@@ -1,6 +1,6 @@
 # Personal Portfolio 
 
-This is a straightforward portfolio project that I developed in October 2022 around the end of phase 2 of my bootcamp at Moringa School to show that I understand react. 
+This is a straightforward portfolio project that I developed in October 2022 around the end of phase 2 of my bootcamp at Moringa School to my understanding of react. 
 
 ## Description
 
