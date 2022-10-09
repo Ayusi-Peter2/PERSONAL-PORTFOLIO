@@ -15,6 +15,8 @@ import AddNewProject from "./pages/Admin/AddNewProject";
 import updateContent from "./pages/Admin/Context";
 import AdminNav from "./pages/Admin/AdminNav";
 import Item from "./components/Item";
+
+
 function App() {
 
   const [allProjects, setAllProjects] = useState([])
@@ -45,7 +47,7 @@ const [deleteFn, setDelete] = useState(false)
    
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects allProjects={allProjects} />} />
-          <Route path="/projects/:id" element={<Item/>} />
+          <Route path="/projects/:id" element={<ProjectDisplay />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/admin" element={<Login />} />
           <Route path="dashboard" element={<AdminPanel />}>
