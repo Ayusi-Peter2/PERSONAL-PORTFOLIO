@@ -13,13 +13,6 @@ function Projects() {
                 })}
 
             </div>
-            {/* <ul>
-                <li>Weather Application</li>
-                <li>Smart Meter Reader</li>
-                <li>Dating App</li>
-                <li>School Management System</li>
-            </ul> */}
-
         </div>
     )
 }
